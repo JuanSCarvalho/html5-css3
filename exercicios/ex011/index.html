@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua a sua janela no navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/img-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/imagem-m.png" type="image/png">
+        <img src="imgs/imagem-G (2).png" alt="imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a repodruzir audios em <html></html></p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/ex21.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
